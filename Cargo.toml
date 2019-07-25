@@ -2,7 +2,7 @@
 name = "bolts-with-rust"
 version = "0.1.0"
 authors = ["Ravi Sankar Karuturi <ravisankarkaruturi@gmail.com>"]
-edition = "2019"
+edition = "2018"
 
 [dependencies]
 
