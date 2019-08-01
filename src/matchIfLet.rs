@@ -39,8 +39,8 @@ fn main(){
     //if let statement with  else for above match statement
     let coin1 = Coin::Quarter(UsState::Alabama);
     let mut count1 = 0;
-    if let Coin::Quarter(state1) = coin1 {
-        println!("State quarter from {:?}!", state1);
+    if let Coin::Quarter(state) = coin1 {
+        println!("State quarter from {:?}!", state);
     } else {
         count1 += 1;
     }
